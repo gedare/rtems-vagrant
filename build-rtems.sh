@@ -3,8 +3,9 @@
 # This script attempts to build absolutely everything in the stable
 #  section of the project.
 
-RTEMS_VERSION="4.11"
-RTEMS_TARGETS="arm avr bfin h8300 i386 lm32 m32c m32r m68k mips no_cpu powerpc sh sparc"
+RTEMS_VERSION="4.12"
+#RTEMS_TARGETS="arm i386 mips powerpc sparc"
+RTEMS_TARGETS="sparc"
 export PREFIX=$HOME/development/rtems/${RTEMS_VERSION}
 export PATH=$PREFIX/bin:$PATH
 
